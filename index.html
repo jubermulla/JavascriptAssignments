@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mystyles.css">
+    <script src="/myscripts.js"></script>
+</head>
+
+<body>
+<h3>Q.1. Write the code to access element which is having id as "text"?</h3>
+    <p id="text">Welcome to prepbyte session....</p>
+    <hr>
+<h3> Q.2. Write the code to access element which is having tag as "h1"?</h3>
+    <p>
+    <h1>Tag is here.......</h1>
+    </p>
+    <hr>
+<h3> Q.3. Write the code to access element which is having class as "box"?</h3>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <hr>
+<h3> Q.4 <br>
+        Hello
+        <br>
+        Change the heading from ""Hello"" to ""Hello World"" using DOM functions"?
+    </h3>
+    <h2>Hello</h2>
+    <button onClick="changeText()">touch me</button>
+    <hr>
+<h3> Q.5 <br>
+        Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this
+        button page content should be changed to "Welcome to Elevation academy"</h3>
+    <h5 id="text1">Hello World</h5>
+    <button onclick="change()">Replace text</button>
+    <hr>
+<h3> Q.6 <br>
+        <h1 id="heading" style="color: red;">Hello </h1>
+        <h3>Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in
+            the above given h1 tag using DOM functions.</h3>
+    </h3>
+
+    <hr>
+<h3> Q.7 Create three cards on HTML page and arrange them using flex property in row or horizontal direction and
+        also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards
+        arrangement should be changed to vertical direction.?</h3>
+    <div class="changeDimension">
+        <div class="child "></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <button onClick="direction()">Change Direction</button>
+    <hr>
+    <h3> Q.8 Whats the difference between window vs document? <br>
+        <p>window is the global object you can reference any properties of it with just the property name - so you do not have to write down window. <br>
+            Window is the main JavaScript object root, aka the global object in a browser, also can be treated as the root of the document object model. You can access it as window.
+            It represents a browser window or frame that displays the contents of the webpage. <br>
+            It is the very first object that is loaded in the browser. <br>
+            It is the object of the browser. <br>
+            syntax:
+            window.propertyname;
+        </p>
+        <p>Document is the main object of the potentially visible document object model/DOM. <br>
+            What about the document object then? The Document object(DOM) is your html, aspx, php, or other document that will be loaded into the browser. The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc
+            It represents any HTML document or web page that is loaded in the browser. <br>
+            It is loaded inside the window. <br>
+            It is the object of window property. <br>
+            syntax:
+            document.propertyname;
+        </p>
+    <hr>
+<h3> Q.9 <br>
+    <div id="clock">
+        <div class="temp"></div>
+    </div>
+    <!-- <script src="/myscripts.js"></script>      -->
+</body>
+
+</html>

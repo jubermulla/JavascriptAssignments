@@ -1,0 +1,12 @@
+/* Q.7 */
+.changeDimension
+{
+    display: flex;
+
+}
+.child
+{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
